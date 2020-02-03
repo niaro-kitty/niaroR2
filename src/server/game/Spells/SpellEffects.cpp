@@ -57,6 +57,7 @@
 #include "InstanceScript.h"
 #include "ReputationMgr.h"
 #include "Transport.h"
+#include "PathGenerator.h"
 #ifdef ELUNA
 #include "LuaEngine.h"
 #endif

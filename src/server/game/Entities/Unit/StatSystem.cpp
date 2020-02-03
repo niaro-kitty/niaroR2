@@ -10,6 +10,7 @@
 #include "Creature.h"
 #include "SharedDefines.h"
 #include "SpellAuras.h"
+#include "SpellInfo.h"
 #include "SpellAuraEffects.h"
 #include "SpellMgr.h"
 #include "ScriptMgr.h"

@@ -10,6 +10,7 @@
 #include "WorldPacket.h"
 #include "ObjectMgr.h"
 #include "SpellMgr.h"
+#include "Spell.h"
 #include "Pet.h"
 #include "Formulas.h"
 #include "SpellAuras.h"

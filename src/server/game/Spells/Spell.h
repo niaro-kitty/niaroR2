@@ -11,8 +11,8 @@
 #include "SharedDefines.h"
 #include "ObjectMgr.h"
 #include "SpellInfo.h"
-#include "PathGenerator.h"
 
+class PathGenerator;
 class Unit;
 class Player;
 class GameObject;

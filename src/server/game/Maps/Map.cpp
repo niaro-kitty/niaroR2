@@ -24,6 +24,7 @@
 #include "VMapFactory.h"
 #include "LFGMgr.h"
 #include "Chat.h"
+#include "PathGenerator.h"
 #ifdef ELUNA
 #include "LuaEngine.h"
 #endif

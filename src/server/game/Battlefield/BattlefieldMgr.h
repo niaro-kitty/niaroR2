@@ -9,6 +9,7 @@
 
 #include "Battlefield.h"
 
+class Battlefield;
 class Player;
 class GameObject;
 class Creature;
