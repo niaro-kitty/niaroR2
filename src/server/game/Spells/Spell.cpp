@@ -53,6 +53,7 @@
 #include "GameObjectAI.h"
 #include "ArenaSpectator.h"
 #include "PathGenerator.h"
+#include "Battlefield.h"
 
 extern pEffect SpellEffects[TOTAL_SPELL_EFFECTS];
 

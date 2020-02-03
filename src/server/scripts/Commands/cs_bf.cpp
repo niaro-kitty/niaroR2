@@ -13,6 +13,7 @@ EndScriptData */
 
 #include "ScriptMgr.h"
 #include "Chat.h"
+#include "Battlefield.h"
 #include "BattlefieldMgr.h"
 
 class bf_commandscript : public CommandScript

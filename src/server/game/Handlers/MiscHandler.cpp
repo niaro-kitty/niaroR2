@@ -43,7 +43,7 @@
 #include "AccountMgr.h"
 #include "Spell.h"
 #include "WhoListCache.h"
-
+#include "Battlefield.h"
 #ifdef ELUNA
 #include "LuaEngine.h"
 #endif

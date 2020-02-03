@@ -28,6 +28,7 @@
 #include "Pet.h"
 #include "ReputationMgr.h"
 #include "InstanceScript.h"
+#include "Battlefield.h"
 #ifdef ELUNA
 #include "LuaEngine.h"
 #endif

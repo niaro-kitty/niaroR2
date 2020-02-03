@@ -7,7 +7,9 @@
 #ifndef BATTLEFIELD_MGR_H_
 #define BATTLEFIELD_MGR_H_
 
-#include "Battlefield.h"
+#include "Define.h"
+#include <map>
+#include <vector>
 
 class Battlefield;
 class Player;

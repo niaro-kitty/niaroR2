@@ -8,10 +8,12 @@
 #include "Zones/BattlefieldWG.h"
 #include "ObjectMgr.h"
 #include "Player.h"
+#include "Battlefield.h"
 
-BattlefieldMgr::BattlefieldMgr()
+
+BattlefieldMgr::BattlefieldMgr():
+    m_UpdateTimer(0)
 {
-    m_UpdateTimer = 0;
     //sLog->outDebug(LOG_FILTER_BATTLEFIELD, "Instantiating BattlefieldMgr");
 }
 
@@ -105,10 +107,10 @@ Battlefield *BattlefieldMgr::GetBattlefieldToZoneId(uint32 zoneid)
     if (itr == m_BattlefieldMap.end())
     {
         // no handle for this zone, return
-        return NULL;
+        return nullptr;
     }
     if (!itr->second->IsEnabled())
-        return NULL;
+        return nullptr;
     return itr->second;
 }
 
@@ -119,7 +121,7 @@ Battlefield *BattlefieldMgr::GetBattlefieldByBattleId(uint32 battleid)
         if ((*itr)->GetBattleId() == battleid)
             return (*itr);
     }
-    return NULL;
+    return nullptr;
 }
 
 void BattlefieldMgr::Update(uint32 diff)
