@@ -7,6 +7,13 @@
 #ifndef AZEROTHCORE_PET_DEFINES_H
 #define AZEROTHCORE_PET_DEFINES_H
 
+#include <math.h>
+#include <Define.h>
+
+inline constexpr float PET_FOLLOW_DIST = 1.0f;
+inline constexpr float PET_FOLLOW_ANGLE = static_cast<float>(M_PI / 2);
+inline constexpr uint32 MAX_PET_STABLES = 4;
+
 enum PetType
 {
     SUMMON_PET              = 0,
@@ -14,7 +21,6 @@ enum PetType
     MAX_PET_TYPE            = 4
 };
 
-#define MAX_PET_STABLES         4
 
 // stored in character_pet.slot
 enum PetSaveMode
@@ -188,7 +194,5 @@ enum PetScalingSpells
 
 };
 
-#define PET_FOLLOW_DIST  1.0f
-#define PET_FOLLOW_ANGLE (M_PI/2)
 
 #endif

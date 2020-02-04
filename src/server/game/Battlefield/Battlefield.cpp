@@ -95,7 +95,8 @@ void Battlefield::HandlePlayerEnterZone(Player* player, uint32 /*zone*/)
 }
 
 // Called when a player leave the zone
-void Battlefield::HandlePlayerLeaveZone(Player* player, uint32 /*zone*/)
+void Battlefield::
+HandlePlayerLeaveZone(Player* player, uint32 /*zone*/)
 {
     if (IsWarTime())
     {
