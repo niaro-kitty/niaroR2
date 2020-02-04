@@ -10,7 +10,6 @@
 #include "GameObject.h"
 #include "TransportMgr.h"
 #include "VehicleDefines.h"
-#include "ZoneScript.h"
 
 struct CreatureData;
 

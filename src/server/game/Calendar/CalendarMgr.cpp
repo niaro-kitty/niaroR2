@@ -11,6 +11,7 @@
 #include "GuildMgr.h"
 #include "ObjectAccessor.h"
 #include "Opcodes.h"
+#include "Guild.h"
 
 CalendarInvite::~CalendarInvite()
 {

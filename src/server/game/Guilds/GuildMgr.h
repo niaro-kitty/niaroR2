@@ -7,8 +7,11 @@
 #ifndef _GUILDMGR_H
 #define _GUILDMGR_H
 
-#include "Guild.h"
 
+#include "Define.h"
+#include <unordered_map>
+
+class Guild;
 class GuildMgr
 {
 private:

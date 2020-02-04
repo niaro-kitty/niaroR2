@@ -6,6 +6,7 @@
 
 #include "Common.h"
 #include "GuildMgr.h"
+#include "Guild.h"
 
 GuildMgr::GuildMgr() : NextGuildId(1)
 { }

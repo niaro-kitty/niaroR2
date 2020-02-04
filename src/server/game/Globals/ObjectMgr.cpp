@@ -36,6 +36,7 @@
 #include "Vehicle.h"
 #include "WaypointManager.h"
 #include "World.h"
+#include "Player.h"
 
 ScriptMapMap sSpellScripts;
 ScriptMapMap sEventScripts;

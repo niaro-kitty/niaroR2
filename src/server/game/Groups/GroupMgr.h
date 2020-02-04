@@ -7,8 +7,11 @@
 #ifndef _GROUPMGR_H
 #define _GROUPMGR_H
 
-#include "Group.h"
+#include "Define.h"
+#include <map>
+#include <vector>
 
+class Group;
 class GroupMgr
 {
 private:

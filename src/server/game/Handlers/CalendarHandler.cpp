@@ -32,6 +32,7 @@ Copied events should probably have a new owner
 #include "ObjectAccessor.h"
 #include "DatabaseEnv.h"
 #include "GuildMgr.h"
+#include "Guild.h"
 #include "ArenaTeamMgr.h"
 #include "WorldSession.h"
 #include "GameEventMgr.h"

@@ -9,6 +9,7 @@
 #include "InstanceSaveMgr.h"
 #include "World.h"
 #include "DBCStores.h"
+#include "Group.h"
 
 GroupMgr::GroupMgr()
 {
