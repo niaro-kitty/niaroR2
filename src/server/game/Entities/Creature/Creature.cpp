@@ -35,6 +35,7 @@
 #include "QuestDef.h"
 #include "SpellAuraEffects.h"
 #include "SpellMgr.h"
+#include "SpellInfo.h"
 #include "TemporarySummon.h"
 #include "Util.h"
 #include "Vehicle.h"

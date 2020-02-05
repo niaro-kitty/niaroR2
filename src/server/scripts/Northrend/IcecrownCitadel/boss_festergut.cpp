@@ -7,6 +7,7 @@
 #include "ScriptedCreature.h"
 #include "SpellAuras.h"
 #include "icecrown_citadel.h"
+#include "SpellInfo.h"
 
 enum ScriptTexts
 {

@@ -6,6 +6,7 @@
 #include "ScriptedCreature.h"
 #include "naxxramas.h"
 #include "SpellScript.h"
+#include "SpellInfo.h"
 #include "Player.h"
 
 enum Yells

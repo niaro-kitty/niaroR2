@@ -9,6 +9,7 @@
 #include "ScriptedCreature.h"
 #include "Player.h"
 #include "Spell.h"
+#include "SpellInfo.h"
 #include "blackrock_spire.h"
 
 enum Text

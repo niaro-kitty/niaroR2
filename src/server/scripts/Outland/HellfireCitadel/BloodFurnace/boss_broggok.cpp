@@ -6,6 +6,7 @@
 #include "ScriptedCreature.h"
 #include "SpellScript.h"
 #include "SpellAuraEffects.h"
+#include "SpellInfo.h"
 #include "blood_furnace.h"
 
 enum eEnums

@@ -7,6 +7,7 @@
 #include "trial_of_the_crusader.h"
 #include "SpellScript.h"
 #include "SpellAuras.h"
+#include "SpellInfo.h"
 
 enum JaraxxusTexts
 {

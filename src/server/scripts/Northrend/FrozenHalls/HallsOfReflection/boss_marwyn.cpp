@@ -3,6 +3,7 @@
 */
 
 #include "halls_of_reflection.h"
+#include "SpellInfo.h"
 
 enum Yells
 {

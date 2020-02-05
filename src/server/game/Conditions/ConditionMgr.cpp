@@ -16,6 +16,7 @@
 #include "SpellAuras.h"
 #include "SpellMgr.h"
 #include "Spell.h"
+#include "SpellInfo.h"
 
 // Checks if object meets the condition
 // Can have CONDITION_SOURCE_TYPE_NONE && !mReferenceId if called from a special event (ie: eventAI)

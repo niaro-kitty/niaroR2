@@ -25,6 +25,7 @@
 #include "SmartAI.h"
 #include "SmartScript.h"
 #include "SpellMgr.h"
+#include "SpellInfo.h"
 #include "Vehicle.h"
 
 class AcoreStringTextBuilder

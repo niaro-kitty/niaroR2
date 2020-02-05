@@ -41,6 +41,7 @@ EndContentData */
 #include "Cell.h"
 #include "CellImpl.h"
 #include "SpellAuras.h"
+#include "SpellInfo.h"
 #include "CombatAI.h"
 #include "PassiveAI.h"
 #include "Pet.h"

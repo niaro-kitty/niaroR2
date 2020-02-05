@@ -8,6 +8,7 @@
 #include "SpellAuras.h"
 #include "GridNotifiers.h"
 #include "icecrown_citadel.h"
+#include "SpellInfo.h"
 
 enum Texts
 {

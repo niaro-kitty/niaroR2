@@ -8,6 +8,7 @@
 #include "ScriptedCreature.h"
 #include "Vehicle.h"
 #include "SpellScript.h"
+#include "SpellInfo.h"
 #include "Player.h"
 
 enum Texts

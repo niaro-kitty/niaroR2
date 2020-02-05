@@ -4,6 +4,7 @@
 #include "ScriptMgr.h"
 #include "ScriptedCreature.h"
 #include "SpellScript.h"
+#include "SpellInfo.h"
 #include "halls_of_stone.h"
 #include "Player.h"
 

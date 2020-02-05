@@ -6,6 +6,7 @@
 #include "ScriptedCreature.h"
 #include "trial_of_the_crusader.h"
 #include "SpellScript.h"
+#include "SpellInfo.h"
 #include "PassiveAI.h"
 #include "Player.h"
 

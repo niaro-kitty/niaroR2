@@ -29,6 +29,7 @@
 #include "SkillDiscovery.h"
 #include "SpellScript.h"
 #include "SpellAuraEffects.h"
+#include "SpellInfo.h"
 #include "Chat.h"
 #include "Vehicle.h"
 

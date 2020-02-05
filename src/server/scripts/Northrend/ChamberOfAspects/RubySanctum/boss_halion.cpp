@@ -6,6 +6,7 @@
 #include "SpellScript.h"
 #include "SpellAuraEffects.h"
 #include "Spell.h"
+#include "SpellInfo.h"
 #include "Vehicle.h"
 #include "MapManager.h"
 #include "GameObjectAI.h"

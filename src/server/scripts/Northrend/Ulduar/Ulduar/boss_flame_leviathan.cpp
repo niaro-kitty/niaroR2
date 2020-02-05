@@ -14,6 +14,7 @@
 #include "ScriptedGossip.h"
 #include "CombatAI.h"
 #include "Spell.h"
+#include "SpellInfo.h"
 #include "GridNotifiers.h"
 #include "Player.h"
 #include "Opcodes.h"

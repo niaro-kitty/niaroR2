@@ -23,6 +23,7 @@
 #include "GridNotifiersImpl.h"
 #include "CellImpl.h"
 #include "ScriptMgr.h"
+#include "SpellInfo.h"
 #include "Vehicle.h"
 #include "BattlefieldMgr.h"
 #include "Pet.h"

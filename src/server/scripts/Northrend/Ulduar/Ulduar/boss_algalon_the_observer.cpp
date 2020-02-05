@@ -7,6 +7,7 @@
 #include "ScriptMgr.h"
 #include "ScriptedCreature.h"
 #include "SpellScript.h"
+#include "SpellInfo.h"
 #include "PassiveAI.h"
 #include "GameObjectAI.h"
 #include "MapManager.h"

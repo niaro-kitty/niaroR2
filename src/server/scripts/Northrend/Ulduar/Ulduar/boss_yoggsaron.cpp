@@ -8,6 +8,7 @@
 #include "ulduar.h"
 #include "ScriptedEscortAI.h"
 #include "SpellAuras.h"
+#include "SpellInfo.h"
 #include "PassiveAI.h"
 #include "Opcodes.h"
 #include "Player.h"

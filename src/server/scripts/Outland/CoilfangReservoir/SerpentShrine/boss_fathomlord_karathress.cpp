@@ -4,6 +4,7 @@
 
 #include "ScriptMgr.h"
 #include "ScriptedCreature.h"
+#include "SpellInfo.h"
 #include "serpent_shrine.h"
 
 enum Talk

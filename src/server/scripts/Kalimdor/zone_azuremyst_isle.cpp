@@ -29,6 +29,7 @@ EndContentData */
 #include "CellImpl.h"
 #include "GridNotifiersImpl.h"
 #include "GridNotifiers.h"
+#include "SpellInfo.h"
 
 /*######
 ## npc_draenei_survivor

@@ -7,6 +7,7 @@
 #include "SpellScript.h"
 #include "mechanar.h"
 #include "Player.h"
+#include "SpellInfo.h"
 
 enum Spells
 {

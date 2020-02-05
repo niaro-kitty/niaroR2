@@ -10,6 +10,7 @@
 #include "ScriptedEscortAI.h"
 #include "SpellScript.h"
 #include "SpellAuraEffects.h"
+#include "SpellInfo.h"
 #include "Vehicle.h"
 #include "CombatAI.h"
 #include "Player.h"

@@ -6,6 +6,7 @@
 #include "ScriptedCreature.h"
 #include "serpent_shrine.h"
 #include "Player.h"
+#include "SpellInfo.h"
 
 enum Talk
 {

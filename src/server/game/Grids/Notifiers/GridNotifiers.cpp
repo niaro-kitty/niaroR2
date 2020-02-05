@@ -371,3 +371,11 @@ bool AnyDeadUnitSpellTargetInRangeCheck::operator()(Creature* u)
 template void ObjectUpdater::Visit<Creature>(CreatureMapType&);
 template void ObjectUpdater::Visit<GameObject>(GameObjectMapType&);
 template void ObjectUpdater::Visit<DynamicObject>(DynamicObjectMapType&);
+
+FriendlyMissingBuffInRange::FriendlyMissingBuffInRange(const Unit *obj, float range, uint32 spellid) : i_obj(obj), i_range(range)
+{
+    i_spell = spellid;
+    if( SpellInfo const* spell = sSpellMgr->GetSpellInfo(spellid) )
+        if( SpellInfo const* newSpell = sSpellMgr->GetSpellForDifficultyFromSpell(spell, const_cast<Unit*>(obj)) )
+            i_spell = newSpell->Id;
+}

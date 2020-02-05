@@ -35,6 +35,7 @@ EndContentData */
 #include "ScriptedGossip.h"
 #include "GameObjectAI.h"
 #include "Spell.h"
+#include "SpellInfo.h"
 #include "Player.h"
 #include "WorldSession.h"
 #include "GridNotifiersImpl.h"

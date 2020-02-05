@@ -8,6 +8,7 @@
 #include "SpellScript.h"
 #include "SpellAuraEffects.h"
 #include "Spell.h"
+#include "SpellInfo.h"
 #include "Vehicle.h"
 #include "Unit.h"
 #include "Cell.h"

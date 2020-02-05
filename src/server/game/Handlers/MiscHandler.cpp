@@ -42,6 +42,7 @@
 #include "Group.h"
 #include "AccountMgr.h"
 #include "Spell.h"
+#include "SpellInfo.h"
 #include "WhoListCache.h"
 #include "Battlefield.h"
 #ifdef ELUNA

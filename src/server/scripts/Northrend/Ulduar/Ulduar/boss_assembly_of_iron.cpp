@@ -7,6 +7,7 @@
 #include "SpellScript.h"
 #include "ulduar.h"
 #include "SpellAuraEffects.h"
+#include "SpellInfo.h"
 #include "Player.h"
 
 enum AssemblySpells

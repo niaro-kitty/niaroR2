@@ -10,6 +10,7 @@
 #include "DBCStores.h"
 #include "ObjectAccessor.h"
 #include "SpellMgr.h"
+#include "SpellInfo.h"
 
 #include "GridNotifiers.h"
 #include "GridNotifiersImpl.h"

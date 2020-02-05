@@ -5,6 +5,7 @@
 #include "ScriptMgr.h"
 #include "ScriptedCreature.h"
 #include "SpellScript.h"
+#include "SpellInfo.h"
 #include "ulduar.h"
 #include "AccountMgr.h"
 #include "PassiveAI.h"

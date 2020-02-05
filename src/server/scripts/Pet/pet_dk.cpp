@@ -18,6 +18,7 @@
 #include "GridNotifiersImpl.h"
 #include "PassiveAI.h"
 #include "SpellAuraEffects.h"
+#include "SpellInfo.h"
 
 enum DeathKnightSpells
 {

@@ -5,6 +5,7 @@
 #include "ScriptedGossip.h"
 #include "Spell.h"
 #include "SpellAuras.h"
+#include "SpellInfo.h"
 #include "SpellScript.h"
 #include "Player.h"
 

@@ -6,6 +6,7 @@
 #include "ScriptedCreature.h"
 #include "black_temple.h"
 #include "Spell.h"
+#include "SpellInfo.h"
 
 enum Says
 {

@@ -20,6 +20,7 @@
 #include "MoveSplineInit.h"
 #include "MoveSpline.h"
 #include "Spell.h"
+#include "SpellInfo.h"
 
 void WaypointMovementGenerator<Creature>::LoadPath(Creature* creature)
 {

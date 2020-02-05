@@ -27,6 +27,7 @@ EndContentData */
 #include "SmartScriptMgr.h"
 #include "SpellScript.h"
 #include "PassiveAI.h"
+#include "SpellInfo.h"
 
 // Ours
 enum eBKG

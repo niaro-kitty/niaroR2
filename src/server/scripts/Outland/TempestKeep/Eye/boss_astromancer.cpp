@@ -4,6 +4,7 @@
 
 #include "ScriptMgr.h"
 #include "ScriptedCreature.h"
+#include "SpellInfo.h"
 #include "the_eye.h"
 
 enum Yells

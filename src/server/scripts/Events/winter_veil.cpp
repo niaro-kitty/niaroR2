@@ -3,6 +3,7 @@
 #include "ScriptMgr.h"
 #include "ScriptedCreature.h"
 #include "Spell.h"
+#include "SpellInfo.h"
 #include "SpellScript.h"
 #include "GameEventMgr.h"
 #include "Player.h"

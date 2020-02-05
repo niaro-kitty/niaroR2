@@ -13,6 +13,7 @@
 #include "GridNotifiers.h"
 #include "GridNotifiersImpl.h"
 #include "SpellAuraEffects.h"
+#include "SpellInfo.h"
 #include "SmartAI.h"
 #include "Group.h"
 #include "icecrown_citadel.h"

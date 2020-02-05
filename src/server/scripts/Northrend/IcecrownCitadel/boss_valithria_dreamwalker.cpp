@@ -6,6 +6,7 @@
 #include "ScriptMgr.h"
 #include "ScriptedCreature.h"
 #include "SpellAuraEffects.h"
+#include "SpellInfo.h"
 #include "Cell.h"
 #include "CellImpl.h"
 #include "GridNotifiers.h"

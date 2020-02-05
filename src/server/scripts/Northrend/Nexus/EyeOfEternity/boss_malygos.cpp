@@ -9,6 +9,7 @@
 #include "MoveSpline.h"
 #include "MoveSplineInit.h"
 #include "SpellScript.h"
+#include "SpellInfo.h"
 #include "PassiveAI.h"
 #include "CombatAI.h"
 #include "Player.h"

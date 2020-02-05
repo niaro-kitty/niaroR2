@@ -20,6 +20,7 @@
 #include "PoolMgr.h"
 #include "ScriptMgr.h"
 #include "SpellMgr.h"
+#include "SpellInfo.h"
 #include "UpdateFieldFlags.h"
 #include "World.h"
 #include "Transport.h"

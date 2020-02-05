@@ -15,6 +15,7 @@
 #include "SpellAuraEffects.h"
 #include "Player.h"
 #include "SpellMgr.h"
+#include "SpellInfo.h"
 #include "TemporarySummon.h"
 #include "Pet.h"
 

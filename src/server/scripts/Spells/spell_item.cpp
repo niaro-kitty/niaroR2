@@ -15,6 +15,7 @@
 #include "ScriptedCreature.h"
 #include "SpellScript.h"
 #include "SpellAuraEffects.h"
+#include "SpellInfo.h"
 #include "SkillDiscovery.h"
 #include "Battleground.h"
 

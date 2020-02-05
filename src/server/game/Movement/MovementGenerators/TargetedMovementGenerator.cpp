@@ -14,6 +14,7 @@
 #include "MoveSpline.h"
 #include "Player.h"
 #include "Spell.h"
+#include "SpellInfo.h"
 #include "BattlegroundRV.h"
 #include "VehicleDefines.h"
 #include "Transport.h"

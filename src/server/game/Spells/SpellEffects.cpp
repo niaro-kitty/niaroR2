@@ -20,6 +20,7 @@
 #include "DynamicObject.h"
 #include "SpellAuras.h"
 #include "SpellAuraEffects.h"
+#include "SpellInfo.h"
 #include "Group.h"
 #include "UpdateData.h"
 #include "MapManager.h"

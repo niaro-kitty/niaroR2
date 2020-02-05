@@ -17,6 +17,7 @@ EndScriptData */
 #include "WorldPacket.h"
 #include "Item.h"
 #include "Spell.h"
+#include "SpellInfo.h"
 
 enum Spells
 {

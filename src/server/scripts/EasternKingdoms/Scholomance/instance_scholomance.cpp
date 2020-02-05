@@ -9,6 +9,7 @@
 #include "GameObjectAI.h"
 #include "SpellScript.h"
 #include "SpellAuras.h"
+#include "SpellInfo.h"
 
 class instance_scholomance : public InstanceMapScript
 {

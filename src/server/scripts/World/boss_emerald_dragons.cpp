@@ -9,6 +9,7 @@
 #include "ScriptedCreature.h"
 #include "SpellScript.h"
 #include "Spell.h"
+#include "SpellInfo.h"
 #include "SpellAuraEffects.h"
 #include "PassiveAI.h"
 #include "GridNotifiers.h"

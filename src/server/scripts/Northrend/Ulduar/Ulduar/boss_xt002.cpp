@@ -9,6 +9,7 @@
 #include "Vehicle.h"
 #include "PassiveAI.h"
 #include "SpellAuraEffects.h"
+#include "SpellInfo.h"
 #include "Player.h"
 #include "Opcodes.h"
 

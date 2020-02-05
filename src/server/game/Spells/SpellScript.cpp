@@ -9,6 +9,7 @@
 #include "SpellAuras.h"
 #include "SpellScript.h"
 #include "SpellMgr.h"
+#include "SpellInfo.h"
 
 bool _SpellScript::_Validate(SpellInfo const* entry)
 {

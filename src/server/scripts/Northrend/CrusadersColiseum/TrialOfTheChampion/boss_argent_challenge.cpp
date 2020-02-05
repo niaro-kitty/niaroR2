@@ -7,6 +7,7 @@
 #include "trial_of_the_champion.h"
 #include "ScriptedEscortAI.h"
 #include "SpellScript.h"
+#include "SpellInfo.h"
 
 enum EadricSpells
 {

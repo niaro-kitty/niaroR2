@@ -7,6 +7,7 @@
 #include "violet_hold.h"
 #include "SpellScript.h"
 #include "SpellAuraEffects.h"
+#include "SpellInfo.h"
 
 enum eSpells
 {

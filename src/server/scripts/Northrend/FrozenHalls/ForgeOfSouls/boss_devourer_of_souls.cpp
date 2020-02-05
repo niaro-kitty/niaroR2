@@ -6,6 +6,7 @@
 #include "ScriptedCreature.h"
 #include "forge_of_souls.h"
 #include "Spell.h"
+#include "SpellInfo.h"
 #include "SpellScript.h"
 #include "SpellAuraEffects.h"
 #include "Player.h"

@@ -19,6 +19,7 @@ EndContentData */
 #include "ScriptedGossip.h"
 #include "ScriptedEscortAI.h"
 #include "SpellScript.h"
+#include "SpellInfo.h"
 #include "Player.h"
 #include "Vehicle.h"
 #include "CreatureTextMgr.h"

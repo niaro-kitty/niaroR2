@@ -8,6 +8,7 @@
 #include "ulduar.h"
 #include "SpellAuraEffects.h"
 #include "SpellAuras.h"
+#include "SpellInfo.h"
 #include "PassiveAI.h"
 #include "Player.h"
 

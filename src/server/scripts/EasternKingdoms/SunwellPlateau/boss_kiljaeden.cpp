@@ -4,6 +4,7 @@
 
 #include "ScriptMgr.h"
 #include "ScriptedCreature.h"
+#include "SpellInfo.h"
 #include "sunwell_plateau.h"
 #include "MoveSplineInit.h"
 #include "CreatureTextMgr.h"

@@ -8,6 +8,7 @@
 #include "ScriptedCreature.h"
 #include "Item.h"
 #include "Spell.h"
+#include "SpellInfo.h"
 #include "GridNotifiers.h"
 #include "GridNotifiersImpl.h"
 #include "Cell.h"

@@ -15,6 +15,7 @@
 #include "Transport.h"
 #include "Group.h"
 #include "CreatureTextMgr.h"
+#include "SpellInfo.h"
 
 enum EventIds
 {

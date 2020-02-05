@@ -7,6 +7,7 @@
 #include "Player.h"
 #include "SpellScript.h"
 #include "SpellAuras.h"
+#include "SpellInfo.h"
 
 enum eShirrak
 {

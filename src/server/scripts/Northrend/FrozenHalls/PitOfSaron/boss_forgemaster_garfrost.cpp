@@ -7,6 +7,7 @@
 #include "pit_of_saron.h"
 #include "SpellScript.h"
 #include "SpellAuras.h"
+#include "SpellInfo.h"
 #include "Player.h"
 #include "WorldSession.h"
 #include "Opcodes.h"

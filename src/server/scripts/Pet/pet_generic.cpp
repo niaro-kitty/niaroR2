@@ -19,6 +19,7 @@
 #include "ScriptedGossip.h"
 #include "SpellScript.h"
 #include "SpellAuras.h"
+#include "SpellInfo.h"
 
 enum Mojo
 {

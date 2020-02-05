@@ -446,6 +446,16 @@ void SpellCastTargets::RemoveDst()
     m_targetMask &= ~(TARGET_FLAG_DEST_LOCATION);
 }
 
+bool SpellCastTargets::HasSrc() const
+{
+    return GetTargetMask() & TARGET_FLAG_SOURCE_LOCATION;
+}
+
+bool SpellCastTargets::HasDst() const
+{
+    return GetTargetMask() & TARGET_FLAG_DEST_LOCATION;
+}
+
 // Xinef: Channel Data
 void SpellCastTargets::SetObjectTargetChannel(uint64 targetGUID)
 {

@@ -6,6 +6,7 @@
 #include "MoveSpline.h"
 #include "MoveSplineInit.h"
 #include "SpellScript.h"
+#include "SpellInfo.h"
 #include "ScriptMgr.h"
 #include "Transport.h"
 #include "TransportMgr.h"

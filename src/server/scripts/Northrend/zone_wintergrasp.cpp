@@ -24,6 +24,7 @@
 #include "Vehicle.h"
 #include "GameObjectAI.h"
 #include "SpellScript.h"
+#include "SpellInfo.h"
 #include "ScriptedGossip.h"
 #include "CombatAI.h"
 #include "Player.h"

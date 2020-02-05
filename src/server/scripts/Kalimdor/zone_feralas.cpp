@@ -16,6 +16,7 @@ EndScriptData */
 #include "ScriptedEscortAI.h"
 #include "ScriptedGossip.h"
 #include "SpellScript.h"
+#include "SpellInfo.h"
 #include "Player.h"
 #include "WorldSession.h"
 

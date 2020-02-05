@@ -8,6 +8,7 @@
 #include "SpellScript.h"
 #include "ulduar.h"
 #include "SpellAuras.h"
+#include "SpellInfo.h"
 #include "PassiveAI.h"
 #include "Player.h"
 #include "WaypointManager.h"

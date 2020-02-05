@@ -10,7 +10,7 @@
 #include "GridDefines.h"
 #include "SharedDefines.h"
 #include "ObjectMgr.h"
-#include "SpellInfo.h"
+#include "SpellAuraDefines.h"
 
 class PathGenerator;
 class Unit;
@@ -21,6 +21,12 @@ class WorldObject;
 class Aura;
 class SpellScript;
 class ByteBuffer;
+class SpellImplicitTargetInfo;
+
+enum SpellCastTargetFlags: uint32;
+enum SpellTargetObjectTypes : uint32;
+enum SpellTargetCheckTypes: uint32;
+enum SpellTargetSelectionCategories: uint32;
 
 #define SPELL_CHANNEL_UPDATE_INTERVAL (1 * IN_MILLISECONDS)
 
@@ -147,8 +153,8 @@ class SpellCastTargets
         void ModDst(SpellDestination const& spellDest);
         void RemoveDst();
 
-        bool HasSrc() const { return GetTargetMask() & TARGET_FLAG_SOURCE_LOCATION; }
-        bool HasDst() const { return GetTargetMask() & TARGET_FLAG_DEST_LOCATION; }
+        bool HasSrc() const;
+        bool HasDst() const;
         bool HasTraj() const { return m_speed != 0; }
 
         float GetElevation() const { return m_elevation; }

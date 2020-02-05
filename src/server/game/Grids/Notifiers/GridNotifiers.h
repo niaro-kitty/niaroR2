@@ -773,13 +773,7 @@ namespace acore
     class FriendlyMissingBuffInRange
     {
         public:
-            FriendlyMissingBuffInRange(Unit const* obj, float range, uint32 spellid) : i_obj(obj), i_range(range)
-            {
-                i_spell = spellid;
-                if( SpellInfo const* spell = sSpellMgr->GetSpellInfo(spellid) )
-                    if( SpellInfo const* newSpell = sSpellMgr->GetSpellForDifficultyFromSpell(spell, const_cast<Unit*>(obj)) )
-                        i_spell = newSpell->Id;
-            }
+            FriendlyMissingBuffInRange(Unit const* obj, float range, uint32 spellid);
             bool operator()(Unit* u)
             {
                 if (u->IsAlive() && u->IsInCombat() && !i_obj->IsHostileTo(u) && i_obj->IsWithinDistInMap(u, i_range) &&

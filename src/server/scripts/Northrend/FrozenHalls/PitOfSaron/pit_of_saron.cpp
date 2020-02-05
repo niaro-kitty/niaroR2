@@ -9,6 +9,7 @@
 #include "PassiveAI.h"
 #include "SpellAuraEffects.h"
 #include "SpellScript.h"
+#include "SpellInfo.h"
 #include "Player.h"
 #include "CreatureGroups.h"
 #include "MapManager.h"

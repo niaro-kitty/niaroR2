@@ -21,6 +21,7 @@
 #include "ScriptMgr.h"
 #include "GameObjectAI.h"
 #include "SpellAuraEffects.h"
+#include "SpellInfo.h"
 #include "Player.h"
 #ifdef ELUNA
 #include "LuaEngine.h"

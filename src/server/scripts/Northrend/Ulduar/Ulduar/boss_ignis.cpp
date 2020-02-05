@@ -9,6 +9,7 @@
 #include "Vehicle.h"
 #include "SpellAuras.h"
 #include "SpellAuraEffects.h"
+#include "SpellInfo.h"
 #include "Player.h"
 
 #define SPELL_FLAME_JETS_10             62680

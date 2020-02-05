@@ -9,6 +9,7 @@
 #include "SpellScript.h"
 #include "PassiveAI.h"
 #include "SpellAuraEffects.h"
+#include "SpellInfo.h"
 #include "Player.h"
 #include "WorldSession.h"
 #include "Opcodes.h"

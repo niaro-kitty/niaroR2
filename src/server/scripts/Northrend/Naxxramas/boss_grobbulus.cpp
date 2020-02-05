@@ -7,6 +7,7 @@
 #include "naxxramas.h"
 #include "PassiveAI.h"
 #include "SpellScript.h"
+#include "SpellInfo.h"
 
 enum Spells
 {

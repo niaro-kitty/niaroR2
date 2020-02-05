@@ -16,6 +16,7 @@ EndScriptData */
 #include "zulaman.h"
 #include "GridNotifiers.h"
 #include "CellImpl.h"
+#include "SpellInfo.h"
 
 enum Yells
 {

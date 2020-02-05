@@ -28,6 +28,7 @@
 #include "ScriptMgr.h"
 #include "SpellAuras.h"
 #include "Spell.h"
+#include "SpellInfo.h"
 #include "SpellMgr.h"
 #include "SpellScript.h"
 #include "Transport.h"

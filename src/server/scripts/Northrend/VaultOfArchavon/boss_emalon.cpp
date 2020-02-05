@@ -7,6 +7,7 @@
 #include "vault_of_archavon.h"
 #include "SpellAuras.h"
 #include "SpellScript.h"
+#include "SpellInfo.h"
 
 enum Spells
 {

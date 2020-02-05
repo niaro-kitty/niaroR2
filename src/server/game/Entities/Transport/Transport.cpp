@@ -20,6 +20,7 @@
 #include "CellImpl.h"
 #include "WorldModel.h"
 #include "Spell.h"
+#include "SpellInfo.h"
 #include "ZoneScript.h"
 
 MotionTransport::MotionTransport() : Transport(), _transportInfo(NULL), _isMoving(true), _pendingStop(false), _triggeredArrivalEvent(false), _triggeredDepartureEvent(false), _passengersLoaded(false), _delayedTeleport(false)

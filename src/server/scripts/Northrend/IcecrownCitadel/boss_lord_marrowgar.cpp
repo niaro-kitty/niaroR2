@@ -6,6 +6,7 @@
 #include "ScriptMgr.h"
 #include "ScriptedCreature.h"
 #include "SpellAuras.h"
+#include "SpellInfo.h"
 #include "MapManager.h"
 #include "icecrown_citadel.h"
 #include "PassiveAI.h"

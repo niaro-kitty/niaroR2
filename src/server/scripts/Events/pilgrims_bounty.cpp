@@ -5,6 +5,7 @@
 #include "SpellAuraEffects.h"
 #include "CombatAI.h"
 #include "SpellScript.h"
+#include "SpellInfo.h"
 #include "Player.h"
 #include "Vehicle.h"
 #include "PassiveAI.h"

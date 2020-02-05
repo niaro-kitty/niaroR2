@@ -4,6 +4,7 @@
 
 #include "halls_of_reflection.h"
 #include "MotionMaster.h"
+#include "SpellInfo.h"
 
 enum Events
 {

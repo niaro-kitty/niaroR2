@@ -6,6 +6,7 @@
 #include "ScriptedCreature.h"
 #include "forge_of_souls.h"
 #include "SpellScript.h"
+#include "SpellInfo.h"
 #include "ScriptedGossip.h"
 #include "Player.h"
 

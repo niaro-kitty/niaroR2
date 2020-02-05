@@ -3,6 +3,7 @@
 #include "ScriptMgr.h"
 #include "ScriptedCreature.h"
 #include "SpellAuraEffects.h"
+#include "SpellInfo.h"
 #include "GridNotifiers.h"
 #include "GossipDef.h"
 #include "SpellScript.h"

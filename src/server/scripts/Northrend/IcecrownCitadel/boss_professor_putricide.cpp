@@ -8,6 +8,7 @@
 #include "SpellAuraEffects.h"
 #include "Group.h"
 #include "Spell.h"
+#include "SpellInfo.h"
 #include "icecrown_citadel.h"
 #include "Vehicle.h"
 #include "GridNotifiers.h"

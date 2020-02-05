@@ -8,6 +8,7 @@ REWRITTEN BY XINEF
 #include "ScriptedCreature.h"
 #include "SmartAI.h"
 #include "ScriptedGossip.h"
+#include "SpellInfo.h"
 
 enum AshbringerEventMisc
 {

@@ -3,6 +3,7 @@
 */
 
 #include "ScriptMgr.h"
+#include "SpellInfo.h"
 #include "InstanceScript.h"
 #include "the_botanica.h"
 

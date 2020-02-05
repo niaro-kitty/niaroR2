@@ -14,6 +14,7 @@
 #include "ScriptMgr.h"
 #include "SpellScript.h"
 #include "SpellAuraEffects.h"
+#include "SpellInfo.h"
 #include "Group.h"
 #include "UnitAI.h"
 

@@ -7,6 +7,7 @@
 #include "forge_of_souls.h"
 #include "SpellScript.h"
 #include "SpellAuraEffects.h"
+#include "SpellInfo.h"
 #include "PassiveAI.h"
 
 enum Yells

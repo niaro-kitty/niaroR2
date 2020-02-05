@@ -19,6 +19,7 @@
 #include "MapManager.h"
 #include "CreatureTextMgr.h"
 #include "SpellAuraEffects.h"
+#include "SpellInfo.h"
 #include "CellImpl.h"
 
 // Ours

@@ -10,6 +10,7 @@
 #include "SpellScript.h"
 #include "PassiveAI.h"
 #include "SpellAuras.h"
+#include "SpellInfo.h"
 #include "Player.h"
 
 enum Yells

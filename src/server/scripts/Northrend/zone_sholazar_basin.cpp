@@ -23,6 +23,7 @@ EndContentData */
 #include "ScriptedEscortAI.h"
 #include "SpellScript.h"
 #include "SpellAuras.h"
+#include "SpellInfo.h"
 #include "Player.h"
 #include "Vehicle.h"
 #include "WaypointManager.h"
