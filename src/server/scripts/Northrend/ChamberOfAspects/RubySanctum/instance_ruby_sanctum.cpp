@@ -6,6 +6,7 @@
 #include "InstanceScript.h"
 #include "ruby_sanctum.h"
 #include "Player.h"
+#include "Spell.h"
 #include "TemporarySummon.h"
 #include "WorldPacket.h"
 

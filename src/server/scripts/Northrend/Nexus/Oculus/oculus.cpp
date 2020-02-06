@@ -15,6 +15,7 @@
 #include "SpellInfo.h"
 #include "SpellAuraEffects.h"
 #include "SpellScript.h"
+#include "Spell.h"
 
 enum Drakes
 {

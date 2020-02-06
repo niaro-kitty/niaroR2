@@ -16,6 +16,7 @@
 #include "SpellScript.h"
 #include "SpellAuraEffects.h"
 #include "SpellInfo.h"
+#include "Spell.h"
 #include "SkillDiscovery.h"
 #include "Battleground.h"
 

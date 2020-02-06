@@ -13,6 +13,7 @@
 #include "ScriptMgr.h"
 #include "SpellScript.h"
 #include "SpellAuraEffects.h"
+#include "Spell.h"
 #include "Player.h"
 #include "SpellInfo.h"
 #include "Totem.h"

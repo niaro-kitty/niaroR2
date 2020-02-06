@@ -8,9 +8,9 @@
 #define __SPELL_SCRIPT_H
 
 #include "Util.h"
+#include "Unit.h"
 #include "SharedDefines.h"
 #include "SpellAuraDefines.h"
-#include "Spell.h"
 #include <stack>
 
 class Unit;
@@ -19,7 +19,9 @@ class SpellScript;
 class Spell;
 class Aura;
 class AuraEffect;
+struct SpellValue;
 struct SpellModifier;
+struct SpellDestination;
 class Creature;
 class GameObject;
 class DynamicObject;

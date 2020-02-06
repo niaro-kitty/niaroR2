@@ -33,6 +33,7 @@ EndContentData */
 #include "Group.h"
 #include "SpellScript.h"
 #include "SpellInfo.h"
+#include "Spell.h"
 #include "Player.h"
 #include "WorldSession.h"
 

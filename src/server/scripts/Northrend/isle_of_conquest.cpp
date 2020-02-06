@@ -12,6 +12,7 @@
 #include "PassiveAI.h"
 #include "SpellAuras.h"
 #include "SpellInfo.h"
+#include "Spell.h"
 #include "Player.h"
 
 enum eIoCTurrent

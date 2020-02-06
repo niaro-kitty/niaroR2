@@ -7,6 +7,7 @@
 #include "ScriptedCreature.h"
 #include "SpellAuraEffects.h"
 #include "SpellInfo.h"
+#include "Spell.h"
 #include "icecrown_citadel.h"
 #include "Player.h"
 
