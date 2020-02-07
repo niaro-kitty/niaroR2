@@ -437,7 +437,7 @@ class Creature : public Unit, public GridObject<Creature>, public MovableMapObje
     public:
 
         explicit Creature(bool isWorldObject = false);
-        virtual ~Creature();
+        ~Creature() override;
 
         void AddToWorld() override;
         void RemoveFromWorld() override;
@@ -799,7 +799,7 @@ class AssistDelayEvent : public BasicEvent
     public:
         AssistDelayEvent(uint64 victim, Unit& owner) : BasicEvent(), m_victim(victim), m_owner(owner) { }
 
-        bool Execute(uint64 e_time, uint32 p_time);
+        bool Execute(uint64 e_time, uint32 p_time) override;
         void AddAssistant(uint64 guid) { m_assistants.push_back(guid); }
     private:
         AssistDelayEvent();
@@ -813,7 +813,7 @@ class ForcedDespawnDelayEvent : public BasicEvent
 {
     public:
         ForcedDespawnDelayEvent(Creature& owner) : BasicEvent(), m_owner(owner) { }
-        bool Execute(uint64 e_time, uint32 p_time);
+        bool Execute(uint64 e_time, uint32 p_time) override;
 
     private:
         Creature& m_owner;

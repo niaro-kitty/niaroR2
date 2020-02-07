@@ -6,6 +6,10 @@
 #include "ScriptedCreature.h"
 #include "arcatraz.h"
 
+#include "SpellScript.h"
+#include "Player.h"
+#include "CreatureAI.h"
+
 
 enum MillhouseSays
 {

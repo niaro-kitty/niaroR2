@@ -22,7 +22,6 @@
 #include "WorldSession.h"
 
 class Player;
-//class Map;
 
 namespace acore
 {

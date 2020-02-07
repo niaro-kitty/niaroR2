@@ -11,7 +11,7 @@
 #include "Creature.h"
 #include "CreatureAI.h"
 #include "Unit.h"
-#include "Spell.h"
+//#include "Spell.h"
 
 //#include "SmartScript.h"
 //#include "SmartAI.h"

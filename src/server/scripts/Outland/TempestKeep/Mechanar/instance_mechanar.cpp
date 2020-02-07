@@ -6,6 +6,9 @@
 #include "InstanceScript.h"
 #include "mechanar.h"
 
+#include "Player.h"
+#include "CreatureAI.h"
+
 static DoorData const doorData[] =
 {
     { GO_DOOR_MOARG_1,          DATA_GATEWATCHER_IRON_HAND,     DOOR_TYPE_PASSAGE,  BOUNDARY_NONE },

@@ -7,6 +7,10 @@
 #include "SpellInfo.h"
 #include "the_eye.h"
 
+#include "SpellScript.h"
+#include "SpellAuraEffects.h"
+#include "Player.h"
+
 enum Yells
 {
     SAY_AGGRO                           = 0,

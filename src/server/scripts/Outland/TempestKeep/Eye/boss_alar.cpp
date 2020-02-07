@@ -8,6 +8,10 @@
 #include "WaypointManager.h"
 #include "MoveSplineInit.h"
 
+#include "SpellScript.h"
+#include "SpellAuraEffects.h"
+#include "Player.h"
+
 enum Spells
 {
     SPELL_BERSERK                   = 45078,

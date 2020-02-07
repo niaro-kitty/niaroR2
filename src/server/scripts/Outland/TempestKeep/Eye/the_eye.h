@@ -5,11 +5,6 @@
 #ifndef DEF_THE_EYE_H
 #define DEF_THE_EYE_H
 
-#include "SpellScript.h"
-#include "SpellAuraEffects.h"
-#include "Player.h"
-#include "GridNotifiers.h"
-
 enum EyeData
 {
     DATA_ALAR               = 0,

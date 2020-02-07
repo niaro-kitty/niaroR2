@@ -5,10 +5,6 @@
 #ifndef ARCATRAZ_H
 #define ARCATRAZ_H
 
-#include "SpellScript.h"
-#include "Player.h"
-#include "CreatureAI.h"
-
 enum DataTypes
 {
     // Encounter States/Boss GUIDs

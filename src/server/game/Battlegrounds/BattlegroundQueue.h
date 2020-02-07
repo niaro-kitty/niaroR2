@@ -98,7 +98,7 @@ class BattlegroundQueue
         class SelectionPool
         {
             public:
-                SelectionPool(): PlayerCount(0) {};
+                SelectionPool(): PlayerCount(0) {}
                 void Init();
                 bool AddGroup(GroupQueueInfo* ginfo, uint32 desiredCount);
                 bool KickGroup(const uint32 size);
@@ -132,10 +132,10 @@ class BGQueueInviteEvent : public BasicEvent
         BGQueueInviteEvent(uint64 pl_guid, uint32 BgInstanceGUID, BattlegroundTypeId BgTypeId, uint8 arenaType, uint32 removeTime) :
           m_PlayerGuid(pl_guid), m_BgInstanceGUID(BgInstanceGUID), m_BgTypeId(BgTypeId), m_ArenaType(arenaType), m_RemoveTime(removeTime)
           { }
-        virtual ~BGQueueInviteEvent() { }
+        ~BGQueueInviteEvent() override {}
 
-        virtual bool Execute(uint64 e_time, uint32 p_time);
-        virtual void Abort(uint64 e_time);
+        bool Execute(uint64 e_time, uint32 p_time) override;
+        void Abort(uint64 e_time) override;
     private:
         uint64 m_PlayerGuid;
         uint32 m_BgInstanceGUID;
@@ -156,10 +156,10 @@ class BGQueueRemoveEvent : public BasicEvent
             : m_PlayerGuid(pl_guid), m_BgInstanceGUID(bgInstanceGUID), m_RemoveTime(removeTime), m_BgQueueTypeId(bgQueueTypeId)
         {}
 
-        virtual ~BGQueueRemoveEvent() {}
+        ~BGQueueRemoveEvent() override {}
 
-        virtual bool Execute(uint64 e_time, uint32 p_time);
-        virtual void Abort(uint64 e_time);
+        bool Execute(uint64 e_time, uint32 p_time) override;
+        void Abort(uint64 e_time) override;
     private:
         uint64 m_PlayerGuid;
         uint32 m_BgInstanceGUID;

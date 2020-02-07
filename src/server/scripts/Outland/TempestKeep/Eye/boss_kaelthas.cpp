@@ -8,6 +8,11 @@
 #include "WorldPacket.h"
 #include "Opcodes.h"
 
+#include "SpellScript.h"
+#include "SpellAuraEffects.h"
+#include "Player.h"
+#include "GridNotifiers.h"
+
 enum Yells
 {
     // Kael'thas Speech

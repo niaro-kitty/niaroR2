@@ -3,6 +3,7 @@
 */
 
 #include "ScriptMgr.h"
+#include "CreatureAI.h"
 #include "InstanceScript.h"
 #include "arcatraz.h"
 

@@ -11,11 +11,8 @@
 #include "Creature.h"
 #include "CreatureAI.h"
 #include "Unit.h"
-#include "Spell.h"
 #include "GridNotifiers.h"
-
 #include "SmartScriptMgr.h"
-//#include "SmartAI.h"
 
 class SmartScript
 {

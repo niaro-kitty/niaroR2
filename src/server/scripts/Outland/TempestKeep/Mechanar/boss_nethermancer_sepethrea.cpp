@@ -6,6 +6,11 @@
 #include "ScriptedCreature.h"
 #include "mechanar.h"
 
+#include "Player.h"
+#include "SpellScript.h"
+#include "SpellAuraEffects.h"
+#include "CreatureAI.h"
+
 enum Says
 {
     SAY_AGGRO                      = 0,

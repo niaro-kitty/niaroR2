@@ -6,10 +6,10 @@
 
 #include "EventProcessor.h"
 
-EventProcessor::EventProcessor()
+BasicEvent::~BasicEvent() = default;
+
+EventProcessor::EventProcessor():m_time(0), m_aborting(false)
 {
-    m_time = 0;
-    m_aborting = false;
 }
 
 EventProcessor::~EventProcessor()

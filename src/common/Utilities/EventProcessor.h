@@ -16,13 +16,8 @@
 class BasicEvent
 {
     public:
-        BasicEvent()
-        {
-            to_Abort = false;
-            m_addTime = 0;
-            m_execTime = 0;
-        }
-        virtual ~BasicEvent() { }                           // override destructor to perform some actions on event removal
+        BasicEvent():to_Abort(false), m_addTime(0), m_execTime(0){}
+        virtual ~BasicEvent();
 
         // this method executes when the event is triggered
         // return false if event does not want to be deleted
