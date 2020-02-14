@@ -6,6 +6,11 @@
 #include "ScriptedCreature.h"
 #include "serpent_shrine.h"
 
+#include "Player.h"
+#include "SpellAuraEffects.h"
+#include "SpellScript.h"
+
+
 enum Spells
 {
     SPELL_WATER_BOLT            = 37138,

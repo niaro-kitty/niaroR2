@@ -9,6 +9,10 @@
 #include "Player.h"
 #include "WorldSession.h"
 
+#include "CreatureAI.h"
+#include "SpellScript.h"
+
+
 enum Says
 {
     SAY_INTRO                       = 0,

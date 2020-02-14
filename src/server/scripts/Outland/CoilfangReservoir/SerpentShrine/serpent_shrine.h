@@ -5,12 +5,6 @@
 #ifndef DEF_SERPENT_SHRINE_H
 #define DEF_SERPENT_SHRINE_H
 
-#include "Player.h"
-#include "SpellScript.h"
-#include "CreatureAI.h"
-#include "SpellAuraEffects.h"
-#include "GridNotifiers.h"
-
 enum DataTypes
 {
     DATA_HYDROSS_THE_UNSTABLE               = 0,

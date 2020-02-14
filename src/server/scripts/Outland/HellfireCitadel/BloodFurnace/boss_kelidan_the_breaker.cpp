@@ -5,6 +5,7 @@
 #include "ScriptMgr.h"
 #include "ScriptedCreature.h"
 #include "SpellAuras.h"
+#include "Player.h"
 #include "blood_furnace.h"
 
 enum eKelidan

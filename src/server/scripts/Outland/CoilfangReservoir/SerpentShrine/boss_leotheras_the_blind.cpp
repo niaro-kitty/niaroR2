@@ -8,6 +8,11 @@
 #include "Player.h"
 #include "SpellInfo.h"
 
+#include "SpellScript.h"
+#include "CreatureAI.h"
+#include "SpellAuraEffects.h"
+#include "GridNotifiers.h"
+
 enum Talk
 {
     SAY_AGGRO                           = 0,

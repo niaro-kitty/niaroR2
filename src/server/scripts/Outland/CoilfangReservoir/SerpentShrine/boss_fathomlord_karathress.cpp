@@ -7,6 +7,9 @@
 #include "SpellInfo.h"
 #include "serpent_shrine.h"
 
+#include "SpellScript.h"
+#include "SpellAuraEffects.h"
+
 enum Talk
 {
     SAY_AGGRO                       = 0,

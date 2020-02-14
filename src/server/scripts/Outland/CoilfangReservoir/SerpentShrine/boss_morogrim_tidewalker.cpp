@@ -6,6 +6,11 @@
 #include "ScriptedCreature.h"
 #include "serpent_shrine.h"
 
+#include "Player.h"
+#include "CreatureAI.h"
+#include "SpellAuraEffects.h"
+#include "SpellScript.h"
+
 enum Yells
 {
     SAY_AGGRO                       = 0,

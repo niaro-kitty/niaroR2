@@ -5,8 +5,6 @@
 #ifndef DEF_BLOOD_FURNACE_H
 #define DEF_BLOOD_FURNACE_H
 
-#include "Player.h"
-
 enum bloodFurnace
 {
     DATA_THE_MAKER                      = 0,

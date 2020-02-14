@@ -8,6 +8,12 @@
 #include "Player.h"
 #include "TemporarySummon.h"
 
+#include "Player.h"
+#include "CreatureAI.h"
+#include "SpellAuraEffects.h"
+#include "SpellScript.h"
+
+
 DoorData const doorData[] =
 {
     { GO_LADY_VASHJ_BRIDGE_CONSOLE, DATA_BRIDGE_EMERGED, DOOR_TYPE_PASSAGE, BOUNDARY_NONE },

@@ -6,6 +6,10 @@
 #include "ScriptedCreature.h"
 #include "serpent_shrine.h"
 
+#include "Player.h"
+#include "SpellAuraEffects.h"
+#include "SpellScript.h"
+
 enum Talk
 {
     SAY_AGGRO                   = 0,
