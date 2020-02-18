@@ -256,6 +256,11 @@ void OutdoorPvP::HandlePlayerResurrects(Player* /*player*/, uint32 /*zone*/)
 {
 }
 
+void OutdoorPvP::AddCapturePoint(OPvPCapturePoint *cp)
+{
+    m_capturePoints[GUID_LOPART(cp->m_capturePointGUID)] = cp;
+}
+
 bool OutdoorPvP::Update(uint32 diff)
 {
     bool objective_changed = false;

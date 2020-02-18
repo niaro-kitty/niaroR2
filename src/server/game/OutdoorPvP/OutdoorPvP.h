@@ -257,10 +257,7 @@ class OutdoorPvP : public ZoneScript
 
         virtual void HandlePlayerResurrects(Player* player, uint32 zone);
 
-        void AddCapturePoint(OPvPCapturePoint* cp)
-        {
-            m_capturePoints[GUID_LOPART(cp->m_capturePointGUID)] = cp;
-        }
+        void AddCapturePoint(OPvPCapturePoint* cp);
 
         OPvPCapturePoint * GetCapturePoint(uint32 lowguid) const
         {

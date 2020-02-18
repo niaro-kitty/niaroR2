@@ -8,18 +8,21 @@
 #define ZONE_SCRIPT_H_
 
 #include "Common.h"
-#include "Creature.h"
 
 class GameObject;
+class Creature;
+struct CreatureData;
+class Unit;
+class WorldObject;
 
 class ZoneScript
 {
     public:
-        ZoneScript() {}
-        virtual ~ZoneScript() {}
+        ZoneScript() = default;
+        virtual ~ZoneScript() = default;
 
-        virtual uint32 GetCreatureEntry(uint32 /*guidlow*/, CreatureData const* data) { return data->id; }
-        virtual uint32 GetGameObjectEntry(uint32 /*guidlow*/, uint32 entry) { return entry; }
+        virtual uint32 GetCreatureEntry(uint32 /*guidlow*/, CreatureData const* data);
+        virtual uint32 GetGameObjectEntry(uint32 /*guidlow*/, uint32 entry);
 
         virtual void OnCreatureCreate(Creature *) { }
         virtual void OnCreatureRemove(Creature *) { }

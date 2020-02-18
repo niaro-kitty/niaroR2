@@ -49,7 +49,7 @@ enum CreatureFlagsExtra
     CREATURE_FLAG_EXTRA_IGNORE_PATHFINDING  = 0x20000000    // creature ignore pathfinding
 };
 
-inline constexpr uint32_t CREATURE_FLAG_EXTRA_DB_ALLOWED(CREATURE_FLAG_EXTRA_INSTANCE_BIND |
+inline constexpr uint32   CREATURE_FLAG_EXTRA_DB_ALLOWED(CREATURE_FLAG_EXTRA_INSTANCE_BIND |
                                                          CREATURE_FLAG_EXTRA_CIVILIAN |
                                                          CREATURE_FLAG_EXTRA_NO_PARRY |
                                                          CREATURE_FLAG_EXTRA_NO_PARRY_HASTEN |
