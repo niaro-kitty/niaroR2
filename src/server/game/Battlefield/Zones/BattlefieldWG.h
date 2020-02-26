@@ -1148,29 +1148,7 @@ struct BfWGGameObjectBuilding
     }
 
     // Called when associated gameobject is damaged
-    void Damaged()
-    {
-        // Update worldstate
-        m_State = BATTLEFIELD_WG_OBJECTSTATE_ALLIANCE_DAMAGE - (m_Team * 3);
-        m_WG->SendUpdateWorldState(m_WorldState, m_State);
-
-        // Send warning message
-        if (m_damagedText)                                       // tower damage + name
-            m_WG->SendWarningToAllInZone(m_damagedText);
-
-        for (GuidSet::const_iterator itr = m_CreatureTopList[m_WG->GetAttackerTeam()].begin(); itr != m_CreatureTopList[m_WG->GetAttackerTeam()].end(); ++itr)
-            if (Unit* unit = ObjectAccessor::FindUnit(*itr))
-                if (Creature* creature = unit->ToCreature())
-                    m_WG->HideNpc(creature);
-
-        for (GuidSet::const_iterator itr = m_TurretTopList.begin(); itr != m_TurretTopList.end(); ++itr)
-            if (Unit* unit = ObjectAccessor::FindUnit(*itr))
-                if (Creature* creature = unit->ToCreature())
-                    m_WG->HideNpc(creature);
-
-        if (m_Type == BATTLEFIELD_WG_OBJECTTYPE_TOWER)
-            m_WG->UpdateDamagedTowerCount(m_WG->GetAttackerTeam());
-    }
+    void Damaged();
 
     // Called when associated gameobject is destroyed
     void Destroyed()
@@ -1208,34 +1186,7 @@ struct BfWGGameObjectBuilding
 
     void Init(GameObject *gobj, uint32 type, uint32 worldstate, uint8 damageText, uint8 destroyText);
 
-    void UpdateCreatureAndGo()
-    {
-        for (GuidSet::const_iterator itr = m_CreatureTopList[m_WG->GetDefenderTeam()].begin(); itr != m_CreatureTopList[m_WG->GetDefenderTeam()].end(); ++itr)
-            if (Unit* unit = ObjectAccessor::FindUnit(*itr))
-                if (Creature* creature = unit->ToCreature())
-                    m_WG->HideNpc(creature);
-
-        for (GuidSet::const_iterator itr = m_CreatureTopList[m_WG->GetAttackerTeam()].begin(); itr != m_CreatureTopList[m_WG->GetAttackerTeam()].end(); ++itr)
-            if (Unit* unit = ObjectAccessor::FindUnit(*itr))
-                if (Creature* creature = unit->ToCreature())
-                    m_WG->ShowNpc(creature, true);
-
-        for (GuidSet::const_iterator itr = m_CreatureBottomList[m_WG->GetDefenderTeam()].begin(); itr != m_CreatureBottomList[m_WG->GetDefenderTeam()].end(); ++itr)
-            if (Unit* unit = ObjectAccessor::FindUnit(*itr))
-                if (Creature* creature = unit->ToCreature())
-                    m_WG->HideNpc(creature);
-
-        for (GuidSet::const_iterator itr = m_CreatureBottomList[m_WG->GetAttackerTeam()].begin(); itr != m_CreatureBottomList[m_WG->GetAttackerTeam()].end(); ++itr)
-            if (Unit* unit = ObjectAccessor::FindUnit(*itr))
-                if (Creature* creature = unit->ToCreature())
-                    m_WG->ShowNpc(creature, true);
-
-        for (GameObjectSet::const_iterator itr = m_GameObjectList[m_WG->GetDefenderTeam()].begin(); itr != m_GameObjectList[m_WG->GetDefenderTeam()].end(); ++itr)
-            (*itr)->SetRespawnTime(RESPAWN_ONE_DAY);
-
-        for (GameObjectSet::const_iterator itr = m_GameObjectList[m_WG->GetAttackerTeam()].begin(); itr != m_GameObjectList[m_WG->GetAttackerTeam()].end(); ++itr)
-            (*itr)->SetRespawnTime(RESPAWN_IMMEDIATELY);
-    }
+    void UpdateCreatureAndGo();
 
     void UpdateTurretAttack(bool disable);
 

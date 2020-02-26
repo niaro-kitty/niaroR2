@@ -10,9 +10,9 @@
 #include <math.h>
 #include <Define.h>
 
-inline constexpr float PET_FOLLOW_DIST = 1.0f;
-inline constexpr float PET_FOLLOW_ANGLE = static_cast<float>(M_PI / 2);
-inline constexpr uint32 MAX_PET_STABLES = 4;
+constexpr float PET_FOLLOW_DIST = 1.0f;
+constexpr float PET_FOLLOW_ANGLE = static_cast<float>(M_PI / 2);
+constexpr uint32 MAX_PET_STABLES = 4;
 
 enum PetType
 {

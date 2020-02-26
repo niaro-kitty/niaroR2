@@ -49,30 +49,29 @@ enum CreatureFlagsExtra
     CREATURE_FLAG_EXTRA_IGNORE_PATHFINDING  = 0x20000000    // creature ignore pathfinding
 };
 
-inline constexpr uint32   CREATURE_FLAG_EXTRA_DB_ALLOWED(CREATURE_FLAG_EXTRA_INSTANCE_BIND |
-                                                         CREATURE_FLAG_EXTRA_CIVILIAN |
-                                                         CREATURE_FLAG_EXTRA_NO_PARRY |
-                                                         CREATURE_FLAG_EXTRA_NO_PARRY_HASTEN |
-                                                         CREATURE_FLAG_EXTRA_NO_BLOCK |
-                                                         CREATURE_FLAG_EXTRA_NO_CRUSH |
-                                                         CREATURE_FLAG_EXTRA_NO_XP_AT_KILL |
-                                                         CREATURE_FLAG_EXTRA_TRIGGER |
-                                                         CREATURE_FLAG_EXTRA_NO_TAUNT |
-                                                         CREATURE_FLAG_EXTRA_WORLDEVENT |
-                                                         CREATURE_FLAG_EXTRA_NO_CRIT |
-                                                         CREATURE_FLAG_EXTRA_NO_SKILLGAIN |
-                                                         CREATURE_FLAG_EXTRA_TAUNT_DIMINISH |
-                                                         CREATURE_FLAG_EXTRA_ALL_DIMINISH |
-                                                         CREATURE_FLAG_EXTRA_GUARD |
-                                                         CREATURE_FLAG_EXTRA_KNOCKBACK_IMMUNE |
-                                                         CREATURE_FLAG_EXTRA_AVOID_AOE |
-                                                         CREATURE_FLAG_EXTRA_NO_DODGE |
-                                                         CREATURE_FLAG_EXTRA_IGNORE_PATHFINDING);
+constexpr uint32   CREATURE_FLAG_EXTRA_DB_ALLOWED(CREATURE_FLAG_EXTRA_INSTANCE_BIND |                                                         CREATURE_FLAG_EXTRA_CIVILIAN |
+                                                  CREATURE_FLAG_EXTRA_NO_PARRY |
+                                                  CREATURE_FLAG_EXTRA_NO_PARRY_HASTEN |
+                                                  CREATURE_FLAG_EXTRA_NO_BLOCK |
+                                                  CREATURE_FLAG_EXTRA_NO_CRUSH |
+                                                  CREATURE_FLAG_EXTRA_NO_XP_AT_KILL |
+                                                  CREATURE_FLAG_EXTRA_TRIGGER |
+                                                  CREATURE_FLAG_EXTRA_NO_TAUNT |
+                                                  CREATURE_FLAG_EXTRA_WORLDEVENT |
+                                                  CREATURE_FLAG_EXTRA_NO_CRIT |
+                                                  CREATURE_FLAG_EXTRA_NO_SKILLGAIN |
+                                                  CREATURE_FLAG_EXTRA_TAUNT_DIMINISH |
+                                                  CREATURE_FLAG_EXTRA_ALL_DIMINISH |
+                                                  CREATURE_FLAG_EXTRA_GUARD |
+                                                  CREATURE_FLAG_EXTRA_KNOCKBACK_IMMUNE |
+                                                  CREATURE_FLAG_EXTRA_AVOID_AOE |
+                                                  CREATURE_FLAG_EXTRA_NO_DODGE |
+                                                  CREATURE_FLAG_EXTRA_IGNORE_PATHFINDING);
 
-inline constexpr int32 MAX_AGGRO_RESET_TIME = 10; // in seconds
-inline constexpr uint8 MAX_KILL_CREDIT = 2;
-inline constexpr int32 CREATURE_REGEN_INTERVAL = 2 * IN_MILLISECONDS;
-inline constexpr uint32 MAX_CREATURE_QUEST_ITEMS = 6;
+constexpr int32 MAX_AGGRO_RESET_TIME = 10; // in seconds
+constexpr uint8 MAX_KILL_CREDIT = 2;
+constexpr int32 CREATURE_REGEN_INTERVAL = 2 * IN_MILLISECONDS;
+constexpr uint32 MAX_CREATURE_QUEST_ITEMS = 6;
 
 // from `creature_template` table
 struct CreatureTemplate
@@ -245,7 +244,7 @@ struct PointOfInterestLocale
     StringVector Name;
 };
 
-inline constexpr int32 MAX_EQUIPMENT_ITEMS = 3;
+constexpr int32 MAX_EQUIPMENT_ITEMS = 3;
 
 struct EquipmentInfo
 {
@@ -429,8 +428,8 @@ struct TrainerSpellData
 typedef std::map<uint32, time_t> CreatureSpellCooldowns;
 
 // max different by z coordinate for creature aggro reaction
-inline constexpr int32 CREATURE_Z_ATTACK_RANGE = 3;
-inline constexpr int32 MAX_VENDOR_ITEMS = 150; // Limitation in 3.x.x item count in SMSG_LIST_INVENTORY
+constexpr int32 CREATURE_Z_ATTACK_RANGE = 3;
+constexpr int32 MAX_VENDOR_ITEMS = 150; // Limitation in 3.x.x item count in SMSG_LIST_INVENTORY
 
 class Creature : public Unit, public GridObject<Creature>, public MovableMapObject
 {

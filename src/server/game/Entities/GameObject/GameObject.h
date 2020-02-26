@@ -9,7 +9,6 @@
 
 #include "Common.h"
 #include "SharedDefines.h"
-#include "Unit.h"
 #include "Object.h"
 #include "LootMgr.h"
 #include "DatabaseEnv.h"
@@ -19,6 +18,7 @@ class GameObjectAI;
 class Transport;
 class StaticTransport;
 class MotionTransport;
+class Unit;
 
 typedef void(*goEventFlag)(Player*, GameObject*, Battleground*);
 
@@ -763,7 +763,7 @@ class GameObject : public WorldObject, public GridObject<GameObject>, public Mov
 
         LootState getLootState() const { return m_lootState; }
         // Note: unit is only used when s = GO_ACTIVATED
-        void SetLootState(LootState s, Unit* unit = NULL);
+        void SetLootState(LootState s, Unit* unit = nullptr);
 
         uint16 GetLootMode() const { return m_LootMode; }
         bool HasLootMode(uint16 lootMode) const { return m_LootMode & lootMode; }
@@ -806,7 +806,7 @@ class GameObject : public WorldObject, public GridObject<GameObject>, public Mov
         bool hasQuest(uint32 quest_id) const override;
         bool hasInvolvedQuest(uint32 quest_id) const override;
         bool ActivateToQuest(Player* target) const;
-        void UseDoorOrButton(uint32 time_to_restore = 0, bool alternative = false, Unit* user = NULL);
+        void UseDoorOrButton(uint32 time_to_restore = 0, bool alternative = false, Unit* user = nullptr);
                                                             // 0 = use `gameobject`.`spawntimesecs`
         void ResetDoorOrButton();
 
@@ -816,13 +816,7 @@ class GameObject : public WorldObject, public GridObject<GameObject>, public Mov
         bool IsAlwaysVisibleFor(WorldObject const* seer) const override;
         bool IsInvisibleDueToDespawn() const override;
 
-        uint8 getLevelForTarget(WorldObject const* target) const override
-        {
-            if (Unit* owner = GetOwner())
-                return owner->getLevelForTarget(target);
-
-            return 1;
-        }
+        uint8 getLevelForTarget(WorldObject const* target) const override;
 
         GameObject* LookupFishingHoleAround(float range);
 

@@ -8,6 +8,7 @@
 #define ACORE_MAIL_H
 
 #include "Common.h"
+#include "Transaction.h"
 #include <map>
 
 struct AuctionEntry;

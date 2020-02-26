@@ -25,6 +25,7 @@
 #include "World.h"
 #include "Transport.h"
 #include "AccountMgr.h"
+#include "Unit.h"
 
 #ifdef ELUNA
 #include "LuaEngine.h"
@@ -1083,6 +1084,14 @@ bool GameObject::IsInvisibleDueToDespawn() const
         return true;
 
     return false;
+}
+
+uint8 GameObject::getLevelForTarget(const WorldObject *target) const
+{
+    if (Unit* owner = GetOwner())
+        return owner->getLevelForTarget(target);
+
+    return 1;
 }
 
 void GameObject::Respawn()
